@@ -1,0 +1,5 @@
+config BR2_PACKAGE_FAKE_OCOTP
+    bool "fake OCOTP sysfs kernel module"
+    help
+      Provides a fake /sys/fsl_otp/HW_OCOTP_CFG0 and CFG1 for QEMU/Buildroot testing.
+

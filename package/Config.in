@@ -1,3 +1,8 @@
+menu "Custom target packages"
+    source "package/fake_ocotp/Config.in"
+    depends on BR2_LINUX_KERNEL
+endmenu
+
 menu "Target packages"
 
 	source "package/busybox/Config.in"

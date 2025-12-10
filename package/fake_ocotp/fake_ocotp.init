@@ -1,0 +1,13 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          fake_ocotp
+# Required-Start:    $all
+# Required-Stop:
+# Default-Start:     S
+# Default-Stop:
+# Short-Description: Load fake OCOTP module
+### END INIT INFO
+
+insmod /lib/modules/fake_ocotp_sysfs.ko
+
